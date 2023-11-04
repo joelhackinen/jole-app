@@ -1,0 +1,20 @@
+{
+  "name": "create-jole-app",
+  "version": "1.0.3",
+  "author": "joelhackinen",
+  "keywords": [
+    "typescript",
+    "tailwindcss",
+    "vite",
+    "react",
+    "prettier",
+    "template"
+  ],
+  "type": "module",
+  "bin": {
+    "jole-app": "./index.cjs"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
