@@ -2,6 +2,7 @@
   "name": "create-jole-app",
   "version": "1.0.3",
   "author": "joelhackinen",
+  "license": "MIT",
   "keywords": [
     "typescript",
     "tailwindcss",
