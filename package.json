@@ -1,7 +1,14 @@
 {
   "name": "create-jole-app",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "author": "joelhackinen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joelhackinen/jole-app.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "license": "MIT",
   "keywords": [
     "typescript",
@@ -13,7 +20,7 @@
   ],
   "type": "module",
   "bin": {
-    "jole-app": "./index.cjs"
+    "jole-app": "index.cjs"
   },
   "engines": {
     "node": ">=18.17.0"
